@@ -8,8 +8,8 @@
 #include "esp_log.h"
 #include "nvs_flash.h"
 
-#define WIFI_SSID "EASY_TECH_PRO"
-#define WIFI_PASS "1088289230"
+#define WIFI_SSID "YOUR WIFI"
+#define WIFI_PASS "12345677"
 
 
 // Event group
