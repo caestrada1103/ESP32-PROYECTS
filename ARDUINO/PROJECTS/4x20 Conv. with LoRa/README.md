@@ -12,7 +12,7 @@ The voltage output of this regulator was set at approximately 4.1 V to have the 
 
 ## Voltage capture:
 Because the application of this code required high resolution, an external ADC ADS1115 of 16 bits was implemented per I2C connection connected to the ESP32, because the internal ADC of the ESP was not sufficient and 0.01 mA precision was required and using the Adafruit ADS1015 library.
-After the data capture with the ADS1115, the conversion of bits was carried out by means of a mapping to have the necessary operation interval using the MapFloat function.
+After the data capture with the ADS1115, the conversion of bits was carried out by means of a mapping to have the necessary operation interval using the MapFloat function. [Reference](https://www.adafruit.com/product/1085)
 
 ## Sent Data by LoRa:
 The sending was made through the SX1276 module at 915MHz, connected to the ESP32 via SPI connection.
